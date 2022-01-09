@@ -19,7 +19,8 @@ class Unit:
         return f'{self.name} | HP: {self.hp}, MP: {self.mp}, LEVEL: {self.lv}, JOB: {self.job}'
     
     def show_more_status(self):
-        return f'''Name: {self.name}
+        return f'''
+        Name: {self.name}
         HP: {self.hp}
         MP: {self.mp}
         LEVEL: {self.lv}
